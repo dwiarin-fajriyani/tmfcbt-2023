@@ -31,7 +31,7 @@
 /**
  * Host URL (e.g.: "http://www.yoursite.com").
  */
-define('K_PATH_HOST', 'http://localhost');
+define('K_PATH_HOST', 'http://localhost:8080');
 /* if((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || $_SERVER['SERVER_PORT'] == 443)
 {
 	define('K_PATH_HOST', 'http://localhost'.$_SERVER['SERVER_NAME']);
